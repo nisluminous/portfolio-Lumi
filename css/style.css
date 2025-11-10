@@ -1,0 +1,57 @@
+.page {
+    max-width: 1120px;
+    margin: 28px auto;
+    border: 3px solid #7e43ff;
+    background: #fff6f7;
+    padding: 12px 14px 28px 14px;
+}
+
+.site-header {
+    position: relative;
+    padding: 18px 64px 8px 64px;
+    border-bottom: 3px solid #111;
+    text-align: center;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 56px;
+    color: #cf6e9b;
+}
+
+.corner {
+    position: absolute;
+    top: 8px;
+    width: 56px;
+    height: 56px;
+}
+.corner-left { left: 8px; }
+.corner-right { right: 8px; }
+.hamster-img { width: 56px; height: 56px; display: block; object-fit: contain; }
+
+.site-nav {
+    margin-top: 8px;
+    text-align: right;
+    padding-right: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.site-nav a { 
+    color: #1340b0; 
+    text-decoration: 
+    underline;
+    margin: 0 6px;
+}
+.site-nav .dot { 
+    color: #111; margin: 0 6px; 
+}
+
+.site-main { 
+    padding: 22px 18px; 
+    min-height: 420px; 
+}
+.intro {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+}
