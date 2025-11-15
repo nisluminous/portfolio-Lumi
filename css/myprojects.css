@@ -6,8 +6,8 @@
 }
 .hero {
     width: 100%;
-    min-height: 100vh;
-    background-image: url(../images/background.png);
+    min-height: 200vh;
+    background-image: url(../images/back3.png);
     background-position: center;
     background-size: cover;
     padding: 10px 10%;
@@ -30,7 +30,7 @@ nav ul li {
 }
 nav ul a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight:600;
     text-size-adjust: initial;
     font-family: "Poppins", sans-serif;
@@ -40,29 +40,33 @@ nav ul a {
     ::view-transition: background 0.3s ease;
 }
 nav ul a:hover {
-    background: rgba(255, 255, 255, 0.7);
-    color: #000;
-}
-.content {
-    margin-top: 10%;
-    max-width: 600px;
+    background: rgba(246, 236, 236, 0.7);
+    color: #914242;
 }
 .content h1{
     font-size: 80px;
     color: #A72703;
+    margin-bottom: 30px;
+}
+h3 {
+    font-weight: bold;
+    color: pink;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 130%;
 }
 .content p{
     margin: 15px 0 30px;
     color: #555555;
     font-size: 120%;
+    text-align: justify;
 }
-.feature-img {
+.gccf-image{
     width: 630px;
-    position: absolute;
-    bottom: absolute;
-    bottom: 0;
-    top: 27%;
-    right: 10%;
-    
 }
-
+.p2-image{
+    width: 630px;
+}
+.p3-image{
+    width: 630px;
+}
